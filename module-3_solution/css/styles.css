@@ -1,0 +1,128 @@
+.container-fluid{
+	margin: 0;
+	padding: 0;
+}
+#header-nav
+{
+  background-color: #2985e0;
+  border-radius: 0px;
+  border: 0px;
+	margin: 0px;
+	padding: 0px;
+	padding-right: : 20px;
+}
+.navbar-brand
+{
+  padding-top: 25px;
+  float: left;
+}
+.navbar-brand h1
+{
+  color: white;
+  font-size: 35px;
+  font-family: fantasy;
+  text-shadow: 1px 1px 1px #222;
+  text-decoration: none;
+	padding: 20px;
+}
+#nav-list
+{
+	background-color: #‎ADD8E6;
+	border: 1px solid black;
+}
+.collapse
+{
+  color: white;
+  font-size: 25px;
+  font-family: fantasy;
+}
+li{
+	box-sizing: border-box;
+	width: 100%;
+}
+.main-title
+{
+  text-align: center;
+  font-family: cursive;
+  color: black;
+}
+.content
+{
+  background-color: #DCDCDC;
+  font-size: 16px;
+  font-family: cursive;
+  border: 2px solid black;
+  text-align: center;
+  padding: 20px;
+  height: auto;
+  width: auto;
+  margin: 30px;
+  text-decoration: none;
+}
+.navbar-nav{
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.nav-item
+{
+  padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: #2985e0;
+	border-bottom: 1px solid black;
+	color: white;
+	display: block;
+}
+a.nav-link
+{
+  color:white;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #222;
+}
+.nav-item:hover
+{
+  background-color: black;
+  color:black;
+  opacity: 0.5;
+}
+.icon-bar
+{
+	background-color: white;
+}
+.navbar-toggle
+{
+  background-color: white;
+  border: 2px solid black;
+  margin-right: 25px;
+  height: 25px;
+  width: 40px;
+  border-radius: 5px;
+  text-shadow: 1px 1px 1px #222;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+@media (min-width: 568px) {
+  .navbar-toggle
+  {
+    visibility: hidden;
+  }
+  #header-nav
+	{
+			height: 100px;
+	}
+	#nav-list
+	{
+		visibility: hidden;
+	}
+
+}
+button.navbar-toggler
+{
+	border: 2px solid white;
+	margin-right: 20px;
+}
