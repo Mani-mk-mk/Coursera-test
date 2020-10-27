@@ -42,7 +42,6 @@ li{
 }
 .main-title
 {
-  text-align: center;
   font-family: cursive;
   color: black;
 }
@@ -58,6 +57,7 @@ li{
   width: auto;
   margin: 30px;
   text-decoration: none;
+	overflow: hidden;
 }
 .navbar-nav{
   font-size: 25px;
@@ -88,7 +88,7 @@ a.nav-link
   color:black;
   opacity: 0.5;
 }
-.icon-bar{
+span.icon-bar{
 	background-color: white;
 }
 .navbar-toggle
