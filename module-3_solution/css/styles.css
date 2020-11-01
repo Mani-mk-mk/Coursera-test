@@ -40,6 +40,12 @@ li{
 	box-sizing: border-box;
 	width: 100%;
 }
+li .a
+{
+	color: white;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #222;
+}
 .main-title
 {
   font-family: cursive;
@@ -88,12 +94,15 @@ a.nav-link
   color:black;
   opacity: 0.5;
 }
-span.icon-bar{
-	background-color: white;
+span.icon-background{
+	
 }
 .navbar-toggle
 {
-  background-color: white;
+	position: relative;
+	float: right;
+	background-color: transparent;
+	background-image: none;
   border: 2px solid black;
   margin-right: 25px;
   height: 25px;
